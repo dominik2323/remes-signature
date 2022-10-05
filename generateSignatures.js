@@ -3,12 +3,12 @@ const pug = require("pug");
 const fs = require("fs");
 
 const api =
-  "https://cdn.jsdelivr.net/gh/dominik2323/labona_email_signature@latest";
+  "https://cdn.jsdelivr.net/gh/dominik2323/remes-signature@0b0f3554702c71fcdfc5d4f0b98128bf46708b45";
 
 const compiledFunction = pug.compileFile("index.pug");
 
 const html = compiledFunction({
-  api: api,
+  apiUrl: api,
 });
 
 writeHtmlAsFile(html, `index.html`);

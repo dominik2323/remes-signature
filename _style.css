@@ -1,0 +1,63 @@
+body * {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1em;
+}
+
+table {
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.h1 {
+  color: #04985d;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.position {
+  font-size: small;
+  line-height: 11px;
+  color: #858987;
+}
+
+.address {
+  font-size: small;
+  line-height: 11px;
+  color: black;
+}
+
+.address.web a[href] {
+  text-decoration: underline;
+  color: #04985d;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.address a[href] {
+  text-decoration: none;
+  color: #000000;
+  font-size: small;
+  line-height: 11px;
+}
+
+.bullet {
+  color: #04985d;
+  line-height: 11px;
+  font-size: small;
+}
+
+.footnote {
+  font-size: small;
+  line-height: 12px;
+  color: #858987;
+}
+
+.footnote a[href] {
+  text-decoration: underline;
+  font-size: small;
+  line-height: 12px;
+  color: #04985d;
+}

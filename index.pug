@@ -4,5 +4,85 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    style
+      include style.css
     title Document
   body 
+    table(class="signature" cellspacing="0" border="0" cellpadding="0" width="320")
+      tbody 
+        tr(style="height: 100px;")
+          td(class="avatar" vertical-align="top" width="100" colspan="2")
+            img(src=`${apiUrl}/images/remes.png`, width="100" height="100")
+        tr(style="height:10px;")
+          td(colspan="2")
+        tr(class="person")
+          td(class="contact" colspan="2")
+            table(cellspacing="0" border="0" cellpadding="0")
+              tr
+                td
+                  div
+                    table(cellspacing="0" border="0" cellpadding="0")
+                      tbody 
+                        tr
+                          td.name
+                            p(class="red h3") Ivan Remeš
+                        tr(style="height:5px;")
+                          td
+                        tr
+                          td.position
+                            p(class="gray300 h4") Finanční poradce
+                        tr(style="height:5px")
+                          td
+                        tr
+                          td
+                            div
+                              table(cellspacing="0" border="0" cellpadding="0")
+                                tr
+                                  td
+                                    p Ivan Remeš
+                                  td(width="20" style="width:20px" align="center")
+                                    p.red •
+                                  td
+                                    p
+                                      a(href=`mailto: ${email}`, class="gray400") Lipová 1, Brno 602 00
+                                  td(width="20" style="width:20px" align="center")
+                                    p.red •
+                                  td
+                                    p
+                                      a(href=`https://ivanremes.cz`, class="red bold") ivanremes.cz 
+                        tr
+                          td
+                            div
+                              table(cellspacing="0" border="0" cellpadding="0")
+                                tr
+                                  td
+                                    p
+                                      a(href=`tel:+420728671398`, class="gray400") (+420) 728 671 398
+                                  td(width="20" style="width:20px" align="center")
+                                    p.red •
+                                  td
+                                    p
+                                      a(href=`mailto:finance@ivanremes.cz`, class="gray400") finance@ivanremes.cz
+        tr(style="height:20px")
+          td(colspan="2")
+        tr
+          td(colspan="2" style="border-top: 1px solid #E7E7E8;" )
+            p 
+        tr(style="height:20px")
+          td(colspan="2")
+        tr(style="height:30px")
+          td(colspan="2")
+            table
+              tr
+                td(class="logo")
+                  p
+                    a(href=`https://ivanremes.cz`) 
+                      img(src=`${apiUrl}/images/logo.png`, width="120" height="25")
+                td(width="20" style="width:20px")
+        tr(style="height:15px")
+          td
+        tr
+          td(class="eval" style="vertical-align:middle" colspan="2")
+            p
+              | V oblasti investic, pojištění a úvěrů jsem registrován pod společností SAB servis, s.r.o. Bližší informace získáte na 
+              a(href="https://www.sabservis.cz" class="gray300 underline") www.sabservis.cz
